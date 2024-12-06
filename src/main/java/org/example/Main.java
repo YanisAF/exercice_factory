@@ -4,10 +4,8 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        AnimalFactory animalFactory = new CatFactory();
-        Animal cat = animalFactory.createAnimal();
-        cat.makeSound();
-
+        ConsoleMenu menu = new ConsoleMenu();
+        menu.start();
 
     }
 }
